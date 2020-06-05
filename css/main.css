@@ -116,9 +116,15 @@ body {
 .slideTwo {
   background: #000;
   height: 100vh;
-  display: flex;
+  /* display: flex; */
   align-items: center;
   justify-content: center;
+  position: relative;
+}
+.slideTwo svg {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .slideTwo img {
   width: 100%;
